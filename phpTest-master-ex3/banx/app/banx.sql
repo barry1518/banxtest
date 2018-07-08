@@ -2,7 +2,7 @@ CREATE TABLE `annual_rates` (
  `countryId` int(11) unsigned NOT NULL AUTO_INCREMENT,
  `name` varchar(64) NOT NULL,
  `annualRates` float(8,2) unsigned NOT NULL,
- PRIMARY KEY (`id`),
+ PRIMARY KEY (`countryId`),
  UNIQUE KEY `country_name_unqiue` (`name`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
